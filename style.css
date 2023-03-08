@@ -1,0 +1,208 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-container {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #3366FF;
+}
+
+.img-left-container {
+    position: absolute;
+    width: 225.4px;
+    height: 298.54px;
+    left: 473.42px;
+    top: 367.46px;
+    background: url(ToyFaces_Tansparent_BG_29.png);
+    transform: rotate(8.57deg);
+}
+
+.img2-left-container {
+    position: absolute;
+    width: 358.1px;
+    height: 434.36px;
+    left: 150px;
+    top: 292.34px;
+    background: url(ToyFaces_Tansparent_BG_49.png);
+    transform: rotate(-3.1deg);
+}
+
+.right-container {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    left: 50%;
+    background: #FFFFFF;
+}
+
+.img-right-container {
+    position: absolute;
+    left: 15%;
+    top: 120px;
+    filter: blur(5px);
+}
+
+.img2-right-container {
+    position: absolute;
+    width: 94px;
+    left: 145px;
+    top: 140px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3366FF;
+}
+
+.in-right-container {
+    position: absolute;
+    width: 30vw;
+    height: 90vh;
+    top: 50px;
+    left: 15%;
+    right: 15%;
+}
+
+.h1-right-container {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #373A42;
+}
+
+.p-right-container {
+    position: absolute;
+    left: 15%;
+    top: 38%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373A42;
+}
+
+.span-right-container {
+    color: #3366FF;
+    font-weight: bold;
+}
+
+.input-text {
+    box-sizing: border-box;
+    position: absolute;
+    width: 315px;
+    height: 45px;
+    left: 15%;
+    top: 47%;
+    background: #FFFFFF;
+    border: 1px solid #C1C5D0;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.input-email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 315px;
+    height: 45px;
+    left: 15%;
+    top: 55%;
+    background: #FFFFFF;
+    border: 1px solid #C1C5D0;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.input-password {
+    box-sizing: border-box;
+    position: absolute;
+    width: 315px;
+    height: 45px;
+    left: 15%;
+    top: 63%;
+    background: #FFFFFF;
+    border: 1px solid #C1C5D0;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 442px;
+    left: 330px;
+    color: #3366FF;
+    opacity: 0.6;
+}
+.eye2-icon {
+    position: absolute;
+    top: 495px;
+    left: 330px;
+    color: #3366FF;
+    opacity: 0.6;
+}
+
+.input-password2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 315px;
+    height: 45px;
+    left: 15%;
+    top: 71%;
+    background: #FFFFFF;
+    border: 1px solid #C1C5D0;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.checkbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 15%;
+    top: 550px;
+    border: 3px solid #3366FF;
+    border-radius: 3px;
+}
+
+.h6-form {
+    position: absolute;
+    width: 208px;
+    height: 21px;
+    left: 22%;
+    top: 518px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #373A42;
+}
+
+.btn-form {
+    position: absolute;
+    width: 315px;
+    height: 45px;
+    left: 15%;
+    top: 595px;
+    background: #3366FF;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+}
